@@ -19,7 +19,7 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hi, I'm Shivam Singh Mer</p>
             <p className="subtext">
-              Over the last years, I developed my frontend and backend development
+              I'm doing my bachelor's in Computer Applications and in my 2nd year, and during this, I've developed my frontend and backend development
               skills to deliver dynamic software and web applications.
             </p>
           </div>
@@ -81,7 +81,7 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              I'm based in Mars, and open to remote work worldwide
+              I'm based in India, and open to remote work worldwide....
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
