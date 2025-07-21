@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useRef } from "react";
 import Card from "../components/Card";
 import { Globe } from "../components/globe";

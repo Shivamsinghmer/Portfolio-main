@@ -236,7 +236,7 @@ export const mySocials = [
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/brattrex/reels/",
+    href: "https://www.instagram.com/bratt._rex/",
     icon: "/assets/socials/instagram.svg",
   },
 ];
@@ -276,6 +276,7 @@ export const experiences = [
     ],
   },
 ];
+
 export const reviews = [
   {
     name: "Jack",
