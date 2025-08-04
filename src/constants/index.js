@@ -192,7 +192,7 @@ export const myProjects = [
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "",
+    href: "https://wa.me/9451201779",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
@@ -207,41 +207,42 @@ export const mySocials = [
   },
 ];
 
-export const experiences = [
+export const education = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Secondary School Education (10th)",
+    institution: "N.L. Memorial Public School",
+    date: "2022–2023",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Built a strong foundation in core subjects including Science and Mathematics.",
+      "Developed early interest in technology through computer fundamentals and digital literacy.",
+      "Achieved 84% in the board examinations, reflecting consistency and discipline.",
+      "This phase sparked curiosity about how technology shapes the world around us.",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Higher Secondary Education (12th)",
+    institution: "N.L. Memorial Public School",
+    date: "2023–2024",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Specialized in Science with Computer Science and Mathematics.",
+      "Secured 87% overall, with a top score of 96 in Mathematics.",
+      "Strengthened logical reasoning and got hands-on experience with basic programming.",
+      "Became more aware of the competitive edge required in the tech industry.",
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "Bachelor of Computer Applications (BCA)",
+    institution: "Dr. Virendra Swaroop Institute of Computer Studies",
+    date: "2024–Present",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Diving deep into core CS subjects like Data Structures, DBMS, Operating Systems, and Web Development (Current CGPA: 8.3).",
+      "Building full-stack applications using modern tech stacks: React, Next.js, Node.js, and MongoDB.",
+      "Exploring Web3 technologies and actively working on blockchain-based projects.",
+      "Participating in hackathons and contributing to open-source projects to enhance real-world problem-solving skills.",
     ],
   },
 ];
+
 
 export const reviews = [
   {

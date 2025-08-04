@@ -4,37 +4,37 @@ function Navigation() {
   return (
     <ul className="nav-ul">
       <li className="nav-li">
-        <a className="nav-link" href="#home">
+        <a className="text-lg hover:text-white transition-colors " href="#home">
           Home
         </a>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#about">
+        <a className="text-lg hover:text-white transition-colors " href="#about">
           About
         </a>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#work">
+        <a className="text-lg hover:text-white transition-colors " href="#work">
           Work
         </a>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#contact">
+        <a className="text-lg hover:text-white transition-colors " href="#contact">
           Contact
         </a>
       </li>
     </ul>
   );
 }
-const Navbar = () => {
+const Navbar = () => { 
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
-      <div className="mx-auto c-space max-w-7xl">
+      <div className="mx-auto py-2 z-50 c-space max-w-7xl">
         <div className="flex items-center justify-between py-2 sm:py-0">
           <a
             href="/"
-            className="text-4xl font-bold transition-colors text-neutral-400 hover:text-white"
+            className="text-3xl font-bold transition-colors text-neutral-400 hover:text-white"
           >
             SHIVAM
           </a>

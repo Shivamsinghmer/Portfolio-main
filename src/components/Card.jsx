@@ -9,6 +9,7 @@ const Card = ({ style, text, image, containerRef }) => {
       drag
       dragConstraints={containerRef}
       dragElastic={1}
+
     />
   ) : (
     <motion.div
@@ -25,3 +26,4 @@ const Card = ({ style, text, image, containerRef }) => {
 };
 
 export default Card;
+
