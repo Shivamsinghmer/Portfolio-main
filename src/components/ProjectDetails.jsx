@@ -1,10 +1,11 @@
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
+
 const ProjectDetails = ({
   title,
   description,
-  subDescription,
+  subDescription = [],
   image,
-  tags,
+  tags = [],
   href,
   closeModal,
 }) => {
@@ -18,30 +19,41 @@ const ProjectDetails = ({
         <button
           onClick={closeModal}
           className="absolute p-2 rounded-sm top-5 right-5 bg-midnight hover:bg-gray-500"
+          type="button"
+          aria-label="Close"
         >
-          <img src="assets/close.svg" className="w-6 h-6" />
+          <img src="assets/close.svg" className="w-6 h-6" alt="Close" />
         </button>
         <img src={image} alt={title} className="w-full rounded-t-2xl" />
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold text-white">{title}</h5>
           <p className="mb-3 font-normal text-neutral-400">{description}</p>
-          {subDescription.map((subDesc, index) => (
-            <p className="mb-3 font-normal text-neutral-400">{subDesc}</p>
-          ))}
+          {Array.isArray(subDescription) &&
+            subDescription.map((subDesc, index) => (
+              <p key={index} className="mb-3 font-normal text-neutral-400">
+                {subDesc}
+              </p>
+            ))}
           <div className="flex items-center justify-between mt-4">
             <div className="flex gap-3">
-              {tags.map((tag) => (
-                <img
-                  key={tag.id}
-                  src={tag.path}
-                  alt={tag.name}
-                  className="rounded-lg size-10 hover-animation"
-                />
-              ))}
+              {Array.isArray(tags) &&
+                tags.map((tag) => (
+                  <img
+                    key={tag.id || tag.name}
+                    src={tag.path}
+                    alt={tag.name}
+                    className="rounded-lg size-10 hover-animation"
+                  />
+                ))}
             </div>
-            <a className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation" href={href}>
+            <a
+              className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View Project{" "}
-              <img src="assets/arrow-up.svg" className="size-4" href={href} />
+              <img src="assets/arrow-up.svg" className="size-4" alt="Open" />
             </a>
           </div>
         </div>
