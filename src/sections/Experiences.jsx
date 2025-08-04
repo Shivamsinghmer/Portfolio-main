@@ -1,4 +1,4 @@
-import { Timeline } from "../components/Timeline";
+import { Timeline } from "../components/Timeline.jsx";
 import { education } from "../constants";
 const Experiences = () => {
   return (

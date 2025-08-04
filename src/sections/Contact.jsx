@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
-import Alert from "../components/Alert";
-import { Particles } from "../components/Particles";
+import Alert from "../components/Alert.jsx";
+import { Particles } from "../components/Particles.jsx";
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
